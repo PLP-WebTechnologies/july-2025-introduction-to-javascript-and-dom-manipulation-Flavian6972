@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Interactive Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Welcome to My Interactive Page!</h1>
+
+  <!--Input Section -->
+  <div>
+    <label for="name">Enter your name:</label>
+    <input type="text" id="name">
+    
+    <label for="age">Enter your age:</label>
+    <input type="number" id="age">
+    
+    <button id="greetBtn">Greet Me</button>
+    <p id="greeting"></p>
+  </div>
+
+  <!-- Functions Example -->
+  <div class="features">
+    <div class="Section">
+        <h2>Calculator</h2>
+        <input type="number" id="num1">
+        <input type="number" id="num2">
+    <button onclick="showTotal()">Add</button>
+    <p id="calcResult"></p>
+    </div>
+    
+  <!-- Loops Example -->
+   <div class="Section">
+    <h2>Loops</h2>
+    <button id="countdownBtn">Start Countdown</button>
+    <ul id="countdownList"></ul>
+
+    <button id="listFruitsBtn">Show Fruits</button>
+    <ul id="fruitsList"></ul>
+   </div>
+    
+  <!-- DOM Manipulation -->
+   <div>
+    <h2>DOM</h2>
+    <button id="changeColorBtn">Change Background</button><br><br>
+    <button id="toggleTextBtn">Toggle Secret Text</button>
+    <p id="secretText" style="display:none;">Surprise! You found the secret!</p>
+   </div>
+    
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+    
+</body>
+</html>
