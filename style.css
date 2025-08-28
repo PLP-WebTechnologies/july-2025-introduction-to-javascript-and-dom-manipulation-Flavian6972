@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f9f9f9;
+  margin: 20px;
+}
+
+h1 {
+  color: #4CAF50;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#secretText {
+  font-weight: bold;
+  color: purple;
+}
+
+.features{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
